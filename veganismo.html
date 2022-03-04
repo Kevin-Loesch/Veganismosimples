@@ -17,8 +17,8 @@
       body {
         background-image: linear-gradient(
           to bottom,
-          rgb(255, 255, 255),
-          rgb(203, 251, 203)
+          rgb(255, 255, 255),white,
+          rgb(0, 117, 0)
         );
       }
 
@@ -50,13 +50,18 @@
 
       .carnemoida {
         height: 400px;
-        margin-bottom: 1000px;
+        margin-bottom: 50px;
         margin-right: 50px;
+        margin-left: 100px;
+        border-color: white;
+        border-radius: 40px; 
+        width: 650px;
       }
 
       .txtcarnemoida {
         font-size: 60px;
         font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
       }
       .row {
         display: flex;
@@ -67,6 +72,8 @@
       .dropdown {
         position: relative;
         display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
       }
 
       .dropdown-content {
@@ -83,19 +90,40 @@
         display: block;
       }
 
-      #carne {
+      .jkjk {
         background-color: rgb(175, 253, 175);
         font-size: 25px;
         border-radius: 5px;
         font-family: cursive;
       }
 
-      .texturasabor{
+      .texturasabor {
           font-size: 20px;
           background-color: rgb(0, 69, 2);
             color: white;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
+
+      .nutrientes {
+          font-size: 20px;
+          background-color: rgb(0, 69, 2);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      .oleaginosas {
+        background-color: rgb(175, 253, 175);
+        font-size: 25px;
+        border-radius: 5px;
+        font-family: cursive;
+      }
+
+    .txtcoxinha {
+        font-size: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
 
     </style>
   </head>
@@ -103,15 +131,15 @@
   <body>
     <div class="row">
       <div class="fotoinicio">
-        <img
+          <img
           src="https://www.escapeshoes.com/wp-content/uploads/2019/11/vegan.jpg"
           alt=""
         />
-      </div>
-      <div class="linkinsta">
+    </div>
+    <div class="linkinsta">
         <a href="https://www.instagram.com/receitas_veganas_simples_/"
           ><img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMp5tqJUZIM2uIHqvOYbhLUaSKCunrLNFyuA&usqp=CAU"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMp5tqJUZIM2uIHqvOYbhLUaSKCunrLNFyuA&usqp=CAU"
         /></a>
       </div>
     </div>
@@ -129,27 +157,339 @@
     </h3>
     <h4>Alimentos Substitutos</h4>
 
+    <!-- Carne moida vegana -->
+    
     <div>
-      <div style="float: left">
+        <div style="float: left">
         <img
           class="carnemoida"
           src="https://pandasnacozinha.com.br/wp-content/uploads/2020/04/receitas-com-carne-mo%C3%ADda-p.jpg"
-        />
-      </div>
+          />
+        </div>
       <div class="txtcarnemoida">Carne Moida Vegana</div>
     </div>
     <div class="texturasabor">textura e sabor</div>
-    <div class="dropdown">
-        <span id="carne">Proteina de SOJA <div class="touchme">clique aqui</div></span>
-        <p>
-              <div class="dropdown-content">
-          <a
-            href="https://www.tudogostoso.com.br/receita/85408-carne-moida-de-soja.html"
-            >receita de carne moida com proteina de soja</a
-          >
 
-        </p>
-      </div>
+    <a class=jkjk href= "https://www.tudogostoso.com.br/receita/161116-carne-moida-de-soja-especial-com-segredinho-para-tirar-o-sabor-forte.html">Carne de soja</a>
+
+<div class="nutrientes">nutrientes</div>
+
+<div class="dropdown">
+  <span class="oleaginosas">Oleaginosas</span>
+  <div class="dropdown-content">
+    <p>As oleaginosas, como avelã, amêndoas, nozes, castanha de caju e castanha do pará são ótimas para quem pretende parar com a carne por um tempo. São bastante saudáveis e cheias de vitaminas essenciais para o corpo.
+
+        Costumam ser um pouco caras, tanto no mercado quanto a granel, mas comer algumas poucas gramas por dia pode sair mais em conta do que comer a carne com os valores praticados atualmente.</p>
+  </div>
+</div>
+
+<div class="dropdown">
+    <span class="oleaginosas">Folhas escuras</span>
+    <div class="dropdown-content">
+      <p>As verduras de cor verde-escura são tão ricas em ferro quanto as proteínas animais de coloração vermelha. Portanto, comece a variar seu cardápio e inclua folhas como: couve, radiche, espinafre, agrião e brócolis, dentre outras.
+
+        Além de ser saudável, você não vai deixar de ingerir ferro, que é uma das maiores preocupações das pessoas que deixam de consumir carne, independente do motivo.</p>
     </div>
+  </div>
+
+  <div class="dropdown">
+    <span class="oleaginosas">Leguminosas</span>
+    <div class="dropdown-content">
+      <p>O feijão, de qualquer cor que seja, é uma leguminosa que não falta na casa dos brasileiros. Dizem especialistas que o feijão preto costuma ser mais rico em ferro que os mais claros. Contudo, todos são nutritivos e essenciais, principalmente para quem deseja diminuir o consumo de carne.
+
+        Além do feijão, outras leguminosas são: grão de bico, lentilha e ervilha. Esses alimentos são essenciais e fontes de proteína vegetal, minerais e ferro.
+        
+        As leguminosas são ótimas opções para a carne, principalmente se utilizadas para fazer bifes vegetais e hambúrgueres, por exemplo.</p>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span class="oleaginosas">Proteína de soja</span>
+    <div class="dropdown-content">
+      <p>Outra leguminosa de grande importância é a soja. Porém, esse alimento é mais consumido na forma de proteína texturizada. Além de ser ótima fonte de ferro, pode ser um excelente substitutivo, principalmente em pratos que as pessoas costumam utilizar carne moída.
+
+        A proteína texturizada de soja pode ser temperada da forma como você gosta (e até da mesma forma que você costuma temperar a carne moída) e utilizar molhos. A aparência também costuma lembrar a da carne moída.
+        
+        Por causa disso, diversas receitas utilizam esse alimento como substituto, principalmente em pratos vegetarianos.</p>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span class="oleaginosas">Cereais</span>
+    <div class="dropdown-content">
+      <p>Os cereais, como o arroz, o centeio, a quinoa, o trigo e a aveia, são excelentes fontes de energia. Assim como as leguminosas, são excelentes fontes de vitaminas do complexo B, ferro, minerais e proteína vegetal. As versões integrais são mais saudáveis.</p>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span class="oleaginosas">Sementes</span>
+    <div class="dropdown-content">
+      <p>As sementes de chia, gergelim, girassol, linhaça e outras fazem muito bem para a saúde pois são fontes de fibras, vitaminas do complexo B e ainda fornecem boas quantidades de proteínas. O gergelim, por exemplo, se colocado nas receitas, pode deixar os pratos muitos saborosos.</p>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span class="oleaginosas">Feijão e Arroz</span>
+    <div class="dropdown-content">
+      <p>O prato tradicional brasileiro é encontrado na maioria das residências do país. O que muitos não sabem é que a mistura é excelente fonte de ferro e proteína vegetal!
+
+        Por isso, não pode faltar nunca na mesa dos brasileiros, principalmente agora com a alta do valor da carne.
+        
+        Normalmente a sugestão é consumi-lo com frequência. Além de ser saudável, fornece energia e você ainda estará ingerindo gorduras magras.</p>
+    </div>
+  </div>
+
+  <!-- Coxinha de frango vegana -->
+
+  <div class="um">
+    <div style="float: left">
+      <img
+        class="carnemoida"
+        src="http://1.bp.blogspot.com/-kbcBaCHCNgw/VexrnWN7geI/AAAAAAAAAN8/L6lx39Jw6pw/s1600/coxinha-jaca.png"text-align="left">
+    </div>
+    <div class="txtcoxinha">Coxinha de Frango Vegana</div>
+    
+
+</div>
+<div class="texturasabor">textura e sabor</div>
+
+<a class=jkjk href= "https://blog.tudogostoso.com.br/cardapios/coxinha-com-recheio-de-jaca-voce-precisa-experimentar-essa-maravilha/">Coxinha de jaca</a>
+
+<div class="nutrientes">nutrientes</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Oleaginosas</span>
+<div class="dropdown-content">
+<p>As oleaginosas, como avelã, amêndoas, nozes, castanha de caju e castanha do pará são ótimas para quem pretende parar com a carne por um tempo. São bastante saudáveis e cheias de vitaminas essenciais para o corpo.
+
+    Costumam ser um pouco caras, tanto no mercado quanto a granel, mas comer algumas poucas gramas por dia pode sair mais em conta do que comer a carne com os valores praticados atualmente.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Folhas escuras</span>
+<div class="dropdown-content">
+  <p>As verduras de cor verde-escura são tão ricas em ferro quanto as proteínas animais de coloração vermelha. Portanto, comece a variar seu cardápio e inclua folhas como: couve, radiche, espinafre, agrião e brócolis, dentre outras.
+
+    Além de ser saudável, você não vai deixar de ingerir ferro, que é uma das maiores preocupações das pessoas que deixam de consumir carne, independente do motivo.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Leguminosas</span>
+<div class="dropdown-content">
+  <p>O feijão, de qualquer cor que seja, é uma leguminosa que não falta na casa dos brasileiros. Dizem especialistas que o feijão preto costuma ser mais rico em ferro que os mais claros. Contudo, todos são nutritivos e essenciais, principalmente para quem deseja diminuir o consumo de carne.
+
+    Além do feijão, outras leguminosas são: grão de bico, lentilha e ervilha. Esses alimentos são essenciais e fontes de proteína vegetal, minerais e ferro.
+    
+    As leguminosas são ótimas opções para a carne, principalmente se utilizadas para fazer bifes vegetais e hambúrgueres, por exemplo.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Proteína de soja</span>
+<div class="dropdown-content">
+  <p>Outra leguminosa de grande importância é a soja. Porém, esse alimento é mais consumido na forma de proteína texturizada. Além de ser ótima fonte de ferro, pode ser um excelente substitutivo, principalmente em pratos que as pessoas costumam utilizar carne moída.
+
+    A proteína texturizada de soja pode ser temperada da forma como você gosta (e até da mesma forma que você costuma temperar a carne moída) e utilizar molhos. A aparência também costuma lembrar a da carne moída.
+    
+    Por causa disso, diversas receitas utilizam esse alimento como substituto, principalmente em pratos vegetarianos.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Cereais</span>
+<div class="dropdown-content">
+  <p>Os cereais, como o arroz, o centeio, a quinoa, o trigo e a aveia, são excelentes fontes de energia. Assim como as leguminosas, são excelentes fontes de vitaminas do complexo B, ferro, minerais e proteína vegetal. As versões integrais são mais saudáveis.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Sementes</span>
+<div class="dropdown-content">
+  <p>As sementes de chia, gergelim, girassol, linhaça e outras fazem muito bem para a saúde pois são fontes de fibras, vitaminas do complexo B e ainda fornecem boas quantidades de proteínas. O gergelim, por exemplo, se colocado nas receitas, pode deixar os pratos muitos saborosos.</p>
+</div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Feijão e Arroz</span>
+<div class="dropdown-content">
+  <p>O prato tradicional brasileiro é encontrado na maioria das residências do país. O que muitos não sabem é que a mistura é excelente fonte de ferro e proteína vegetal!
+
+    Por isso, não pode faltar nunca na mesa dos brasileiros, principalmente agora com a alta do valor da carne.
+    
+    Normalmente a sugestão é consumi-lo com frequência. Além de ser saudável, fornece energia e você ainda estará ingerindo gorduras magras.</p>
+</div>
+</div>
+
+<!-- pizza vegana -->
+
+<div class="um">
+    <div style="float: left">
+      <img
+        class="carnemoida"
+        src="https://claudia.abril.com.br/wp-content/uploads/2022/02/RECEBER-RECEITAS5-1.jpg"text-align="left">
+    </div>
+    <div class="txtcoxinha">Pizza Vegana</div>
+    
+    
+</div>
+<div class="texturasabor">textura e sabor</div>
+
+<a class=jkjk href= "https://claudia.abril.com.br/receitas/pizza-vegana-jaca/">Pizza de jaca</a>
+
+<div class="nutrientes">nutrientes</div>
+
+<div class="dropdown">
+    <span class="oleaginosas">Folhas escuras</span>
+<div class="dropdown-content">
+  <p>As verduras de cor verde-escura são tão ricas em ferro quanto as proteínas animais de coloração vermelha. Portanto, comece a variar seu cardápio e inclua folhas como: couve, radiche, espinafre, agrião e brócolis, dentre outras.
+      
+      Além de ser saudável, você não vai deixar de ingerir ferro, que é uma das maiores preocupações das pessoas que deixam de consumir carne, independente do motivo.</p>
+    </div>
+</div>
+
+<div class="dropdown">
+    <span class="oleaginosas">Feijão e Arroz</span>
+    <div class="dropdown-content">
+        <p>O prato tradicional brasileiro é encontrado na maioria das residências do país. O que muitos não sabem é que a mistura é excelente fonte de ferro e proteína vegetal!
+            
+            Por isso, não pode faltar nunca na mesa dos brasileiros, principalmente agora com a alta do valor da carne.
+            
+            Normalmente a sugestão é consumi-lo com frequência. Além de ser saudável, fornece energia e você ainda estará ingerindo gorduras magras.</p>
+        </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Cereais</span>
+    <div class="dropdown-content">
+      <p>Os cereais, como o arroz, o centeio, a quinoa, o trigo e a aveia, são excelentes fontes de energia. Assim como as leguminosas, são excelentes fontes de vitaminas do complexo B, ferro, minerais e proteína vegetal. As versões integrais são mais saudáveis.</p>
+    </div>
+    </div>
+    
+<div class="dropdown">
+<span class="oleaginosas">Leguminosas</span>
+<div class="dropdown-content">
+  <p>O feijão, de qualquer cor que seja, é uma leguminosa que não falta na casa dos brasileiros. Dizem especialistas que o feijão preto costuma ser mais rico em ferro que os mais claros. Contudo, todos são nutritivos e essenciais, principalmente para quem deseja diminuir o consumo de carne.
+
+    Além do feijão, outras leguminosas são: grão de bico, lentilha e ervilha. Esses alimentos são essenciais e fontes de proteína vegetal, minerais e ferro.
+    
+    As leguminosas são ótimas opções para a carne, principalmente se utilizadas para fazer bifes vegetais e hambúrgueres, por exemplo.</p>
+</div>
+</div>
+
+<div class="dropdown">
+    <span class="oleaginosas">Sementes</span>
+    <div class="dropdown-content">
+        <p>As sementes de chia, gergelim, girassol, linhaça e outras fazem muito bem para a saúde pois são fontes de fibras, vitaminas do complexo B e ainda fornecem boas quantidades de proteínas. O gergelim, por exemplo, se colocado nas receitas, pode deixar os pratos muitos saborosos.</p>
+    </div>
+</div>
+
+<div class="dropdown">
+<span class="oleaginosas">Proteína de soja</span>
+<div class="dropdown-content">
+  <p>Outra leguminosa de grande importância é a soja. Porém, esse alimento é mais consumido na forma de proteína texturizada. Além de ser ótima fonte de ferro, pode ser um excelente substitutivo, principalmente em pratos que as pessoas costumam utilizar carne moída.
+
+    A proteína texturizada de soja pode ser temperada da forma como você gosta (e até da mesma forma que você costuma temperar a carne moída) e utilizar molhos. A aparência também costuma lembrar a da carne moída.
+    
+    Por causa disso, diversas receitas utilizam esse alimento como substituto, principalmente em pratos vegetarianos.</p>
+</div>
+</div>
+
+<div class="dropdown">
+    <span class="oleaginosas">Oleaginosas</span>
+    <div class="dropdown-content">
+    <p>As oleaginosas, como avelã, amêndoas, nozes, castanha de caju e castanha do pará são ótimas para quem pretende parar com a carne por um tempo. São bastante saudáveis e cheias de vitaminas essenciais para o corpo.
+    
+        Costumam ser um pouco caras, tanto no mercado quanto a granel, mas comer algumas poucas gramas por dia pode sair mais em conta do que comer a carne com os valores praticados atualmente.</p>
+    </div>
+    </div>
+
+    <!-- leite vegano -->
+
+    <div class="um">
+        <div style="float: left">
+          <img
+            class="carnemoida"
+            src="https://www.jasminealimentos.com/wp-content/uploads/2017/04/leite-vegetal1.jpg"text-align="left">
+        </div>
+        <div class="txtcoxinha">Leite Vegano</div>
+        
+    </div>
+    <div class="texturasabor">textura e sabor</div>
+
+    <a class=jkjk href= "https://revistacasaejardim.globo.com/Casa-e-Comida/Receitas/noticia/2018/09/leite-de-soja-caseiro.html">Leie de soja</a>
+    <a class=jkjk href= "https://www.greenme.com.br/alimentar-se/vegetariano-e-vegano/84840-leite-de-grao-de-bico-beneficios-como-fazer/">Leie de grao de bico</a>
+    <a class=jkjk href= "">Leie de soja</a>
+    <a class=jkjk href= "">Leie de soja</a>
+    <a class=jkjk href= "">Leie de soja</a>
+
+    <div class="nutrientes">nutrientes</div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Oleaginosas</span>
+    <div class="dropdown-content">
+    <p>As oleaginosas, como avelã, amêndoas, nozes, castanha de caju e castanha do pará são ótimas para quem pretende parar com a carne por um tempo. São bastante saudáveis e cheias de vitaminas essenciais para o corpo.
+    
+        Costumam ser um pouco caras, tanto no mercado quanto a granel, mas comer algumas poucas gramas por dia pode sair mais em conta do que comer a carne com os valores praticados atualmente.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Folhas escuras</span>
+    <div class="dropdown-content">
+      <p>As verduras de cor verde-escura são tão ricas em ferro quanto as proteínas animais de coloração vermelha. Portanto, comece a variar seu cardápio e inclua folhas como: couve, radiche, espinafre, agrião e brócolis, dentre outras.
+    
+        Além de ser saudável, você não vai deixar de ingerir ferro, que é uma das maiores preocupações das pessoas que deixam de consumir carne, independente do motivo.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Leguminosas</span>
+    <div class="dropdown-content">
+      <p>O feijão, de qualquer cor que seja, é uma leguminosa que não falta na casa dos brasileiros. Dizem especialistas que o feijão preto costuma ser mais rico em ferro que os mais claros. Contudo, todos são nutritivos e essenciais, principalmente para quem deseja diminuir o consumo de carne.
+    
+        Além do feijão, outras leguminosas são: grão de bico, lentilha e ervilha. Esses alimentos são essenciais e fontes de proteína vegetal, minerais e ferro.
+        
+        As leguminosas são ótimas opções para a carne, principalmente se utilizadas para fazer bifes vegetais e hambúrgueres, por exemplo.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Proteína de soja</span>
+    <div class="dropdown-content">
+      <p>Outra leguminosa de grande importância é a soja. Porém, esse alimento é mais consumido na forma de proteína texturizada. Além de ser ótima fonte de ferro, pode ser um excelente substitutivo, principalmente em pratos que as pessoas costumam utilizar carne moída.
+    
+        A proteína texturizada de soja pode ser temperada da forma como você gosta (e até da mesma forma que você costuma temperar a carne moída) e utilizar molhos. A aparência também costuma lembrar a da carne moída.
+        
+        Por causa disso, diversas receitas utilizam esse alimento como substituto, principalmente em pratos vegetarianos.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Cereais</span>
+    <div class="dropdown-content">
+      <p>Os cereais, como o arroz, o centeio, a quinoa, o trigo e a aveia, são excelentes fontes de energia. Assim como as leguminosas, são excelentes fontes de vitaminas do complexo B, ferro, minerais e proteína vegetal. As versões integrais são mais saudáveis.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Sementes</span>
+    <div class="dropdown-content">
+      <p>As sementes de chia, gergelim, girassol, linhaça e outras fazem muito bem para a saúde pois são fontes de fibras, vitaminas do complexo B e ainda fornecem boas quantidades de proteínas. O gergelim, por exemplo, se colocado nas receitas, pode deixar os pratos muitos saborosos.</p>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <span class="oleaginosas">Feijão e Arroz</span>
+    <div class="dropdown-content">
+      <p>O prato tradicional brasileiro é encontrado na maioria das residências do país. O que muitos não sabem é que a mistura é excelente fonte de ferro e proteína vegetal!
+    
+        Por isso, não pode faltar nunca na mesa dos brasileiros, principalmente agora com a alta do valor da carne.
+        
+        Normalmente a sugestão é consumi-lo com frequência. Além de ser saudável, fornece energia e você ainda estará ingerindo gorduras magras.</p>
+    </div>
+    </div>
+    
   </body>
 </html>
