@@ -128,36 +128,59 @@
         margin-left: 100px;
         margin-top: 200px;
       }
+
+      .bodi {
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+      }
+
+      .carrossel {
+        box-shadow: 2px 2px 4px black;
+        overflow: hidden;
+        height: 390px;
+        width: 2000px;
+        margin-top: 0%;
+      }
+
+      .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+        margin-top: 0%;
+      }
+
+      img {
+        object-fit: cover;
+        height: 390px;
+        width: 2000px;
+        margin-top: 0%;
+      }
+
     </style>
   </head>
 
   <body>
-    <div class="row">
-      <div class="fotoinicio">
-        <img
-          src="https://www.escapeshoes.com/wp-content/uploads/2019/11/vegan.jpg"
-          alt=""
-        />
-      </div>
-      <div class="linkinsta">
-        <a href="https://www.instagram.com/receitas_veganas_simples_/"
-          ><img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMp5tqJUZIM2uIHqvOYbhLUaSKCunrLNFyuA&usqp=CAU"
-        /></a>
-      </div>
-    </div>
-    <h1>SIMPLIFICANDO O ATO DE SALVAR VIDAS</h1>
-
+    <strong><h1>SIMPLIFICANDO O ATO DE SALVAR VIDAS</h1></strong>
+    
     <h2>
       O Veganismo Simples veio com o intuito de auxiliar pessoas que tem o
       desejo de se tornar vegano/vegetariano independentemente do motivo delas.
     </h2>
-
+    
     <h3>
       Aqui você encontrara alimentos substitutos da carne, tanto no sabor quanto
       nos nutrientes, encontrara também receitas saborosas que farão você
-      esquecer da carne animal.
+      esquecer da carne animal, encontrara também roupas 100% veganas sem nada de origem animal.
     </h3>
+    <div class="bodi">
+      <div class="carrossel">
+        <div class="container" id="img">
+          <a href=""><img src="https://deliciasculinarias.com.br/wp-content/uploads/2020/07/comida-vegana-1-1240x700.jpg" alt=""></a>
+          <a href=""><img src="https://bordalo.observador.pt/v2/q:85/rs:fill:1707:958/c:1707:958:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2021/01/28190208/2020-10-01-083608936-scaled-1.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
     <h4>Alimentos Substitutos</h4>
 
     <!-- Carne moida vegana -->
@@ -643,6 +666,24 @@
      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ -->
+     <script>
+      const imgs = document.getElementById("img");
+          const img = document.querySelectorAll("#img img");
+          
+          let idx = 0;
+          
+          function carrosssel(){
+              idx++;
+          
+              if(idx > img.length - 1){
+                  idx = 0;
+              }
+          
+              imgs.style.transform = `translateX(${-idx * 2000}px)`
+          }
+          
+          setInterval(carrosssel, 2500);
+      </script>
   </body>
 </html>
 
