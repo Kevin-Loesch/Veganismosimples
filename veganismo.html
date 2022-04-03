@@ -139,7 +139,7 @@
         box-shadow: 2px 2px 4px black;
         overflow: hidden;
         height: 390px;
-        width: 2000px;
+        width: 1519px;
         margin-top: 0%;
       }
 
@@ -153,15 +153,20 @@
       img {
         object-fit: cover;
         height: 390px;
-        width: 2000px;
+        width: 1519px;
         margin-top: 0%;
+      }
+
+      .barra {
+        background-color: black;
       }
 
     </style>
   </head>
 
   <body>
-    <strong><h1>SIMPLIFICANDO O ATO DE SALVAR VIDAS</h1></strong>
+    <nav class="barra"></nav>
+    <h1>SIMPLIFICANDO O ATO DE SALVAR VIDAS</h1>
     
     <h2>
       O Veganismo Simples veio com o intuito de auxiliar pessoas que tem o
@@ -176,12 +181,12 @@
     <div class="bodi">
       <div class="carrossel">
         <div class="container" id="img">
-          <a href=""><img src="https://deliciasculinarias.com.br/wp-content/uploads/2020/07/comida-vegana-1-1240x700.jpg" alt=""></a>
+          <a href="https://veganismosimples.netlify.app/veganismo/#alimentos"><img src="https://deliciasculinarias.com.br/wp-content/uploads/2020/07/comida-vegana-1-1240x700.jpg" alt=""></a>
           <a href=""><img src="https://bordalo.observador.pt/v2/q:85/rs:fill:1707:958/c:1707:958:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2021/01/28190208/2020-10-01-083608936-scaled-1.jpg" alt=""></a>
         </div>
       </div>
     </div>
-    <h4>Alimentos Substitutos</h4>
+    <h4 id="alimentos">Alimentos Substitutos</h4>
 
     <!-- Carne moida vegana -->
 
@@ -679,7 +684,7 @@
                   idx = 0;
               }
           
-              imgs.style.transform = `translateX(${-idx * 2000}px)`
+              imgs.style.transform = `translateX(${-idx * 1519}px)`
           }
           
           setInterval(carrosssel, 2500);
